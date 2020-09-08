@@ -26,7 +26,7 @@ set VSCODE_LOGS=
 
 :: Launch Code
 
-%CODE% . %*
+%CODE% . %* --trace-uncaught
 goto end
 
 :builtin
