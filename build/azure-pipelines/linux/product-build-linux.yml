@@ -92,11 +92,11 @@ steps:
       yarn gulp vscode-reh-web-linux-x64-min-ci
   displayName: Build
 
-- script: |
-    set -e
-    service xvfb start
-  displayName: Start xvfb
-  condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'))
+#- script: |
+#    set -e
+#    service xvfb start
+#  displayName: Start xvfb
+#  condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'))
 
 - script: |
     set -e
