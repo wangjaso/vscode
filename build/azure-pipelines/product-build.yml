@@ -13,6 +13,7 @@ resources:
   - container: vscode-x64
     image: vscodehub.azurecr.io/vscode-linux-build-agent:bionic
     endpoint: VSCodeHub
+    options: --user 0:0
   - container: snapcraft
     image: snapcore/snapcraft:stable
 
